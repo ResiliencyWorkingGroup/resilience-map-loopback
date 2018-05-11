@@ -3,7 +3,10 @@
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
-    "validateUpsert": true
+    "validateUpsert": true,
+    "mongodb": {
+      "collection": "mapAssets"
+    }
   },
   "remoting": {
     "normalizeHttpPath": true
@@ -36,6 +39,14 @@
     },
     "geoJson": {
       "type": "string",
+      "required": true
+    },
+    "createdAt": {
+      "type": "date",
+      "required": true
+    },
+    "updatedAt": {
+      "type": "date",
       "required": true
     }
   },
