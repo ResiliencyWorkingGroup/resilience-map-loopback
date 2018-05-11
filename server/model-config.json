@@ -36,7 +36,7 @@
     "public": false
   },
   "MapAsset": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   }
 }

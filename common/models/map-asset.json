@@ -5,6 +5,9 @@
   "options": {
     "validateUpsert": true
   },
+  "remoting": {
+    "normalizeHttpPath": true
+  },
   "properties": {
     "name": {
       "type": "string",
@@ -39,8 +42,5 @@
   "validations": [],
   "relations": {},
   "acls": [],
-  "methods": {},
-  "remoting" : {
-    "normalizeHttpPath": true
-  }
+  "methods": {}
 }
